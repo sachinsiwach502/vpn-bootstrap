@@ -518,6 +518,12 @@ p {
     right: 37%;
 }
 
+@media (max-width:768px) {
+    .slick-dots {
+        right: 20%;
+    }
+}
+
 .slick-dots li.slick-active button:before {
     background-color: #F53855;
     width: 50px !important;
@@ -687,4 +693,9 @@ p {
     background-color: white;
     color: red;
     box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
+}
+@media (min-width:1400px) {
+    .mt-200{
+        margin-top: 200px;
+    }
 }
