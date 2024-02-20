@@ -4,7 +4,7 @@ $('.slick-slider').slick({
     prevArrow: ".prev",
     nextArrow: ".next",
     speed: 300,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     responsive: [
         {
@@ -35,3 +35,6 @@ $('.slick-slider').slick({
         // instead of a settings object
     ]
 });
+
+
+

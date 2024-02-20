@@ -91,7 +91,20 @@
         justify-content: space-between;
         flex-direction: column;
         right: 3%;
-        top: 4%;
+        top: 2%;
+    }
+
+    .pl-20 {
+        margin-left: 20px;
+    }
+
+    .pl-10 {
+        margin-left: 10px;
+    }
+
+    .mtb-10 {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
     label[for="menuIcon"] span {
@@ -105,6 +118,8 @@
         left: 0;
     }
 }
+
+@media (min-width:1400px) {}
 
 @media (max-width:768px) {
     .sign-in {
@@ -126,7 +141,7 @@
     line-height: 25px;
     letter-spacing: 0em;
     text-align: left;
-    box-shadow: #F5383859;
+    box-shadow: 9px 20px 22px -3px #f5383859;
 }
 
 .main-head {
@@ -148,6 +163,8 @@
     text-align: left;
     color: var(--tertiary-color);
 }
+
+
 
 .main-para {
     font-family: Rubik;
@@ -195,12 +212,6 @@ p {
 @media (min-width:992px) {
     .border-right {
         border-right: 2px solid var(--primary-color);
-    }
-}
-
-@media (max-width:768px) {
-    .border-right {
-        border-bottom: 2px solid var(--primary-color);
     }
 }
 
@@ -278,6 +289,7 @@ p {
     justify-content: center;
     padding-top: 70px;
     padding-bottom: 50px;
+    margin-top: 10px;
 }
 
 .box-1st-heading {
@@ -547,6 +559,7 @@ p {
 .box-btn:hover {
     background-color: red;
     color: white;
+    box-shadow: 9px 20px 22px -3px #f5383859;
 }
 
 .subscribe {
@@ -584,6 +597,17 @@ p {
     color: #fff;
     border-radius: 10px;
     border: none;
+    font-family: Rubik;
+    font-size: var(--text-size-sm);
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    box-shadow: 9px 20px 22px -3px #f5383859;
+    text-align: left;
+}
+
+.box:hover {
+    border: red 2px solid;
 }
 
 .footer-txt {
@@ -617,7 +641,8 @@ p {
     text-align: left;
     color: var(--primary-color);
 }
-.pt-100{
+
+.pt-100 {
     padding-top: 100px;
 }
 
@@ -629,9 +654,35 @@ p {
 .btn-red:hover {
     color: red;
     background-color: white;
-    border: red 2px solid;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 .bg-grey {
     background-color: #FBFBFB;
+}
+
+.links:hover {
+    color: #F53855;
+}
+
+.footer-links:hover {
+    color: #F53855;
+}
+
+.facebook:hover {
+    transform: translatey(-5px);
+}
+
+.twiter:hover {
+    transform: translatey(-5px);
+}
+
+.instagram:hover {
+    transform: translatey(-5px);
+}
+
+.sub-btn:hover {
+    background-color: white;
+    color: red;
+    box-shadow: 0 8px 30px rgb(0, 0, 0, 0.12);
 }
