@@ -78,6 +78,7 @@
         height: 100%;
         position: fixed;
         top: 0%;
+        z-index: 3;
         left: -100%;
     }
 
@@ -92,6 +93,7 @@
         flex-direction: column;
         right: 3%;
         top: 2%;
+        z-index: 4;
     }
 
     .pl-20 {
